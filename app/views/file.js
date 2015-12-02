@@ -1296,6 +1296,8 @@ module.exports = Backbone.View.extend({
       success: (function(model, res, options) {
         var name = res.content.name;
         var path = '{{site.baseurl}}/' + res.content.path;
+        // Replace this url for Hugo
+        path = path.replace('{{site.baseurl}}/static/', '/');
 
         // Take the alt text from the insert image box on the toolbar
         var $alt = $('input[name="alt"]');

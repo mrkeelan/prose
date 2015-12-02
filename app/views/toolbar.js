@@ -393,6 +393,8 @@ module.exports = Backbone.View.extend({
         this.queue = undefined;
       } else {
         var src = '{{site.baseurl}}/' + $('input[name="url"]').val();
+        // Replace this url for Hugo
+        src = src.replace('{{site.baseurl}}/static/', '/');
         var alt = $('input[name="alt"]').val();
         this.view.editor.replaceSelection('![' + alt + '](' + src + ')');
         this.view.editor.focus();
