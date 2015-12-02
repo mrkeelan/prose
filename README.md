@@ -21,3 +21,7 @@ New to Internet Relay Chat? [Join quickly & easily using your Web browser](http:
 ### Help contribute
 
 Prose project is currently looking for [new maintainers](https://github.com/prose/prose/issues/743).
+
+### Forked for Hugo
+
+I have altered the handling of adding images to work with Hugo
