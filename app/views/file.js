@@ -296,7 +296,8 @@ module.exports = Backbone.View.extend({
           path = /^\//.test(path) ? path.slice(1) :
             util.extractFilename(this.model.get('path'))[0] + '/' + path;
 
-          var url = auth.site + '/' + this.repo.get('owner').login + '/' + this.repo.get('name') + '/blob/' +  this.branch + '/' + window.escape(path) + '?raw=true';
+          // Add /static/ back in for Hugo
+          var url = auth.site + '/' + this.repo.get('owner').login + '/' + this.repo.get('name') + '/blob/' +  this.branch + '/static/' + window.escape(path) + '?raw=true';
 
           content = content.replace(r, '![' + parts[1] + '](' + url + ')');
         }
