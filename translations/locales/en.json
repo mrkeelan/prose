@@ -254,6 +254,15 @@
                         "content": "<p>If you want to use a special Markdown character in your document (such as displaying literal asterisks), you can escape the character with the backslash (<code>\\\\</code>). Markdown will ignore the character directly after a backslash.</p>\n"
                     }
                 }
+            },
+            "shortcodes": {
+                "title": "Short Codes",
+                "content": {
+                    "alignment": {
+                        "title": "Alignment",
+                        "content": "<p>Align left:<code>{{% alignleft %}}Content to align left{{% /alignleft %}}</code></p>\n<p>Align right:<code>{{% alignright %}}Content to align right{{% /alignright %}}</code></p>\n"
+                    }
+                }
             }
         }
     },
