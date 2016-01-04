@@ -56,6 +56,15 @@ module.exports = function() {
         content: [{
           menuName: t('dialogs.help.shortcodes.content.alignment.title'),
           data: t('dialogs.help.shortcodes.content.alignment.content')
+        }, {
+          menuName: t('dialogs.help.shortcodes.content.clear.title'),
+          data: t('dialogs.help.shortcodes.content.clear.content')
+        }, {
+          menuName: t('dialogs.help.shortcodes.content.floats.title'),
+          data: t('dialogs.help.shortcodes.content.floats.content')
+        }, {
+          menuName: t('dialogs.help.shortcodes.content.video.title'),
+          data: t('dialogs.help.shortcodes.content.video.content')
         }]
       },
     ]

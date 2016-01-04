@@ -261,6 +261,18 @@
                     "alignment": {
                         "title": "Alignment",
                         "content": "<p>Align left:<code>{{% alignleft %}}Content to align left{{% /alignleft %}}</code></p>\n<p>Align right:<code>{{% alignright %}}Content to align right{{% /alignright %}}</code></p>\n"
+                    },
+                    "clear": {
+                        "title": "Clear floats",
+                        "content": "<p>Clear:<code>{{% clear %}}{{% /clear %}}</code></p>\n"
+                    },
+                    "floats": {
+                        "title": "Floated Content",
+                        "content": "<p>Float left:<code>{{% floatleft %}}Content to float left{{% /floatleft %}}</code></p>\n<p>Float right:<code>{{% floatright %}}Content to float right{{% /floatright %}}</code></p>\n"
+                    },
+                    "video": {
+                        "title": "Video",
+                        "content": "Example:<code>{{% video embed-url='https://www.youtube.com/embed/wuz2ILq4UeA' %}}This caption appears left of the video{{% /video %}}</code>"
                     }
                 }
             }
