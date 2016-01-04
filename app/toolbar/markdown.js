@@ -49,6 +49,15 @@ module.exports = function() {
           menuName: t('dialogs.help.miscellaneous.content.escaping.title'),
           data: t('dialogs.help.miscellaneous.content.escaping.content')
         }]
+      },
+
+      {
+        menuName: "Short Codes",
+        content: [{
+          menuName: "Alignment",
+          data: "<p>{{% alignleft }}This content will be aligned left.{{ /alignleft }}</p>
+          <p>{{% alignright }}This content will be aligned right.{{ /alignright }}</p>"
+        }]
       }
     ]
   };
