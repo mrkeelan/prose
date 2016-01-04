@@ -52,13 +52,12 @@ module.exports = function() {
       },
 
       {
-        menuName: "Short Codes",
+        menuName: t('dialogs.help.shortcodes.title'),
         content: [{
-          menuName: "Alignment",
-          data: "<p>{{% alignleft }}This content will be aligned left.{{ /alignleft }}</p>
-          <p>{{% alignright }}This content will be aligned right.{{ /alignright }}</p>"
+          menuName: t('dialogs.help.shortcodes.content.alignment.title'),
+          data: t('dialogs.help.shortcodes.content.alignment.content')
         }]
-      }
+      },
     ]
   };
 };
