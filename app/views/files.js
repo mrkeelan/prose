@@ -129,6 +129,9 @@ module.exports = Backbone.View.extend({
       return regex.test(file.get('path'));
     }).bind(this));
 
+    // Reverse sort order, newest files first -mrk
+    collection.reverse();
+
     var frag = document.createDocumentFragment();
 
     collection.each((function(file, index) {
