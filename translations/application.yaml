@@ -238,7 +238,7 @@ en:
           video:
             title: "Video",
             content: |
-              Example:<code>{{% video embed-url='https://www.youtube.com/embed/wuz2ILq4UeA' %}}This caption appears left of the video{{% /video %}}</code>
+              Example:<code>{{% video embed-url="https://www.youtube.com/embed/wuz2ILq4UeA" %}}This caption appears left of the video{{% /video %}}</code>
   chooselanguage:
     title: "Choose a Language"
     description: |

@@ -272,7 +272,7 @@
                     },
                     "video": {
                         "title": "Video",
-                        "content": "Example:<code>{{% video embed-url='https://www.youtube.com/embed/wuz2ILq4UeA' %}}This caption appears left of the video{{% /video %}}</code>"
+                        "content": "Example:<code>{{% video embed-url=\"https://www.youtube.com/embed/wuz2ILq4UeA\" %}}This caption appears left of the video{{% /video %}}</code>"
                     }
                 }
             }
