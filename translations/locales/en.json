@@ -273,6 +273,10 @@
                     "video": {
                         "title": "Video",
                         "content": "Example:<code>{{% video embed-url=\"https://www.youtube.com/embed/wuz2ILq4UeA\" %}}This caption appears left of the video{{% /video %}}</code>"
+                    },
+                    "md-player": {
+                        "title": "Music Dealers Player",
+                        "content": "Example: <code>{{% md-player 2263404 %}}</code> where 2263404 is any song ID"
                     }
                 }
             }
