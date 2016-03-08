@@ -65,6 +65,9 @@ module.exports = function() {
         }, {
           menuName: t('dialogs.help.shortcodes.content.video.title'),
           data: t('dialogs.help.shortcodes.content.video.content')
+        }, {
+          menuName: t('dialogs.help.shortcodes.content.md-player.title'),
+          data: t('dialogs.help.shortcodes.content.md-player.content')
         }]
       },
     ]
