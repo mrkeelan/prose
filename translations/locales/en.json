@@ -276,7 +276,7 @@
                     },
                     "md-player": {
                         "title": "Music Dealers Player",
-                        "content": "Example: <code>{{% md-player 2263404 %}}</code> where 2263404 is any song ID"
+                        "content": "<p>Example: <code>{{% md-player song=\"2263404\" %}}</code> where 2263404 is any song ID</p><p><code>{{% md-player playlist=\"2311847\" %}}</code> where 2311847 is any playlist ID</p>"
                     }
                 }
             }
